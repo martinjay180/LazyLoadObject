@@ -13,5 +13,7 @@
             "LazyLoadObject\\": "LazyLoadObject"
         }
     },
-    "require": {}
+    "require": {
+		    "php": ">=5.3.4"
+	  }
 }
