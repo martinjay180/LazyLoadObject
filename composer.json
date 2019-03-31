@@ -1,0 +1,17 @@
+{
+    "name": "martinjay/lazy-load-object",
+    "description": "A base class to help create lazy load objects.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Martin Jay",
+            "email": "martin@martinjay.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LazyLoadObject\\": "LazyLoadObject"
+        }
+    },
+    "require": {}
+}
