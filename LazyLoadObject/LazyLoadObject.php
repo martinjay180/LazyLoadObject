@@ -4,14 +4,13 @@ namespace LazyLoadObject;
 
 class LazyLoadObject {
 
-  protected static $inst = null;
-
   public static function Instance(){
-    if (static::$inst === null) {
-      static::$inst = new static();
-      static::$inst->Setup();
-    }
-    return static::$inst;
+      static $inst = null;
+      if ($inst === null) {
+          $inst = new static();
+          $inst->Setup();
+      }
+      return $inst;
   }
 
   public function Setup(){
